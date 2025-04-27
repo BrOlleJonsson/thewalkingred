@@ -1,0 +1,1373 @@
+[
+  {
+    "location": "Alingsås",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:00",
+    "startPoint": "Folkets hus",
+    "address": "Norra Strömgatan 9",
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/4104534136533517/",
+    "lat": 57.928889,
+    "lon": 12.531944
+  },
+  {
+    "location": "Avesta",
+    "region": "Dalarnas län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Kungsgatan 14",
+    "address": "Kungsgatan 14",
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 60.145556,
+    "lon": 16.168333
+  },
+  {
+    "location": "Boden",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Stora Coop",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 65.825119,
+    "lon": 21.688704
+  },
+  {
+    "location": "Bollnäs",
+    "region": "Gävleborgs län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:30",
+    "startPoint": "Onbacken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 61.348056,
+    "lon": 16.394722
+  },
+  {
+    "location": "Borlänge",
+    "region": "Dalarnas län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Ängsplan, Bullermyren",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 60.484167,
+    "lon": 15.433333
+  },
+  {
+    "location": "Borås",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:30",
+    "startPoint": "Stadsparken",
+    "address": "Sven Eriksonsgatan",
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/4157658577851480/",
+    "lat": 57.718625,
+    "lon": 12.939000
+  },
+  {
+    "location": "Eksjö",
+    "region": "Jönköpings län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:30",
+    "startPoint": "Stora torget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 57.666783,
+    "lon": 14.970302
+  },
+  {
+    "location": "Enköping",
+    "region": "Uppsala län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Spanska trappan",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1183938282943595",
+    "lat": 59.633,
+    "lon": 17.067
+  },
+  {
+    "location": "Eskilstuna",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:30",
+    "startPoint": "Järntorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/9606805019406110/",
+    "lat": 59.367,
+    "lon": 16.500
+  },
+  {
+    "location": "Falkenberg",
+    "region": "Hallands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Rörbecksplatsen",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1386130102404471/",
+    "lat": 56.904444,
+    "lon": 12.491667
+  },
+  {
+    "location": "Falköping",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "18:00",
+    "startPoint": "Amfiteatern, Plantis",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://fb.me/e/ivdR1TYJQ",
+    "lat": 58.145742,
+    "lon": 13.550498
+  },
+  {
+    "location": "Farsta",
+    "region": "Stockholms län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:30",
+    "startPoint": "Farstaängsparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/996677452587091",
+    "lat": 59.259306,
+    "lon": 18.084167
+  },
+  {
+    "location": "Gnosjö",
+    "region": "Jönköpings län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:00",
+    "startPoint": "Hammargården",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Gällivare",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:00",
+    "startPoint": "Folkets Hus",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Gävle",
+    "region": "Gävleborgs län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:30",
+    "startPoint": "Södermalmstorg",
+    "address": "Stortorget",
+    "details": "13:00 Stortorget",
+    "speakers": null,
+    "link": "https://gavleborg.vansterpartiet.se/2025/04/23/1-maj-2025-alla-ska-ha-rad/",
+    "lat": 60.674722,
+    "lon": 17.141667
+  },
+  {
+    "location": "Göteborg",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:30",
+    "startPoint": "Andra Långgatan",
+    "address": "Gustav Adolfs torg",
+    "details": "15:30 Gustav Adolfs torg",
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1172160260952883/",
+    "lat": 57.698972,
+    "lon": 11.946667
+  },
+  {
+    "location": "Hagfors",
+    "region": "Värmlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Blinkebergsparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://varmland.vansterpartiet.se/2025/04/15/dags-for-forsta-maj/",
+    "lat": 60.033333,
+    "lon": 13.65
+  },
+  {
+    "location": "Halmstad",
+    "region": "Hallands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:15",
+    "startPoint": "Kapsylparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/976500217594839/",
+    "lat": 56.673889,
+    "lon": 12.857222
+  },
+  {
+    "location": "Haparanda",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Storgatan 80",
+    "address": "Storgatan 80",
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 65.833333,
+    "lon": 24.133333
+  },
+  {
+    "location": "Helsingborg",
+    "region": "Skåne län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "14:30",
+    "startPoint": "Stortorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/649289471230653",
+    "lat": 56.046111,
+    "lon": 12.693333
+  },
+  {
+    "location": "Hudiksvall",
+    "region": "Gävleborgs län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:45",
+    "startPoint": "Rådhusparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1390741382062520/",
+    "lat": 61.733333,
+    "lon": 17.116667
+  },
+  {
+    "location": "Hultsfred",
+    "region": "Kalmar län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:00",
+    "startPoint": "Stora Torget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 57.490850,
+    "lon": 15.841972
+  },
+  {
+    "location": "Hässleholm",
+    "region": "Skåne län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:00",
+    "startPoint": "Hembygdsparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://skane.vansterpartiet.se/event/1-maj-runt-i-skane",
+    "lat": 56.158913,
+    "lon": 13.766765
+  },
+  {
+    "location": "Jönköping",
+    "region": "Jönköpings län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:30",
+    "startPoint": "Rådhusparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1885898795148334/",
+    "lat": 57.7825,
+    "lon": 14.166667
+  },
+  {
+    "location": "Karlskrona",
+    "region": "Blekinge län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:30",
+    "startPoint": "Järnvägsstationen",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 56.160833,
+    "lon": 15.586111
+  },
+  {
+    "location": "Karlstad",
+    "region": "Värmlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Stora torget",
+    "address": null,
+    "details": null,
+    "speakers":null,
+    "link": null,
+    "lat": 59.381,
+    "lon": 13.501833
+  },
+  {
+    "location": "Katrineholm",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:00",
+    "startPoint": "Stationsplan",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/651192211137566",
+    "lat": 58.996667,
+    "lon": 16.208333
+  },
+  {
+    "location": "Kiruna",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Stadshuset",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 67.852778,
+    "lon": 20.222778
+  },
+  {
+    "location": "Klippan",
+    "region": "Skåne län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:00",
+    "startPoint": "Allétorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://skane.vansterpartiet.se/event/1-maj-runt-i-skane",
+    "lat": 56.133333,
+    "lon": 13.133333
+  },
+  {
+    "location": "Knivsta",
+    "region": "Uppsala län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:00",
+    "startPoint": "Sågverkstorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://knivsta.vansterpartiet.se/event/forsta-maj-2/",
+    "lat": 59.717,
+    "lon": 17.800
+  },
+  {
+    "location": "Kramfors",
+    "region": "Västernorrlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:30",
+    "startPoint": "Posttorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Kristinehamn",
+    "region": "Värmlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:00",
+    "startPoint": "Stadsparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Krokom",
+    "region": "Jämtlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "09:00",
+    "startPoint": "Hissmofors Folkets hus",
+    "address": "Folketshusvägen 1",
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 63.3278,
+    "lon": 14.478281
+  },
+  {
+    "location": "Kungälv",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:30",
+    "startPoint": "Olof Palmes plats",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/976229628006827/",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Laholm",
+    "region": "Hallands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:00",
+    "startPoint": "Stadsparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1171149504326312/",
+    "lat": 56.516667,
+    "lon": 13.033333
+  },
+  {
+    "location": "Landskrona",
+    "region": "Skåne län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:00",
+    "startPoint": "Rådhustorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/583050767399599",
+    "lat": 55.870056,
+    "lon": 12.829944
+  },
+  {
+    "location": "Leksand",
+    "region": "Dalarnas län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "ABF, Hantverkaregatan 5 B",
+    "address": "Hantverkaregatan 5B",
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 60.73657,
+    "lon": 15.00453
+  },
+  {
+    "location": "Lidköping",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Torget",
+    "address": "Nya Stadens Torg",
+    "details": null,
+    "speakers": null,
+    "link": "https://fb.me/e/8mVXFXMSZ",
+    "lat": 58.503597,
+    "lon": 13.157558
+  },
+  {
+    "location": "Lindesberg",
+    "region": "Örebro län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Flugparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/2201086583639452",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Linköping",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:30",
+    "startPoint": "Konsert & Kongress",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Ljungby",
+    "region": "Kronobergs län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "15:00",
+    "startPoint": "Eskilsgården, Gamla torg",
+    "address": "Gamla Torg",
+    "details": null,
+    "speakers": null,
+    "link": "https://kronoberg.vansterpartiet.se/event/1-maj-i-kronoberg",
+    "lat": 56.833194,
+    "lon": 13.932
+  },
+  {
+    "location": "Ljusnarsberg",
+    "region": "Örebro län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Malmtorget, Kopparberg",
+    "address": "Malmtorget, Kopparberg",
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Ljusdal",
+    "region": "Gävleborgs län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Riotorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1044854317512646",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Luleå",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Kulturens Hus",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Lund",
+    "region": "Skåne län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "14:00",
+    "startPoint": "Stortorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://skane.vansterpartiet.se/event/1-maj-runt-i-skane",
+    "lat": 55.702811,
+    "lon": 13.193031
+  },
+  {
+    "location": "Lysekil",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Stadsparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Lycksele",
+    "region": "Västerbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Stora bron",
+    "address": null,
+    "details": null,
+    "speakers": [
+      "Peter Olofsson"
+    ],
+    "link": "https://vasterbotten.vansterpartiet.se/2025/04/25/har-kan-du-fira-1-maj-i-lanet/",
+    "lat": 64.73955,
+    "lon": 18.668879
+  },
+  {
+    "location": "Malmö",
+    "region": "Skåne län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:00",
+    "startPoint": "Möllevångstorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1377316496783737/",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Malå",
+    "region": "Västerbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "14:00",
+    "startPoint": "Forum",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Mark",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:30",
+    "startPoint": "Kinnaborgssalen, Kinna",
+    "address": "Kinnaborgssalen, Kinna",
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Motala",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Stora torget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Mölndal",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:30",
+    "startPoint": "Mölndals torg",
+    "address": null,
+    "details": "Ansluter Göteborg",
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1392356505107456",
+    "lat": 57.650002,
+    "lon": 12.016667
+  },
+  {
+    "location": "Nordmaling",
+    "region": "Västerbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Kommunparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://vasterbotten.vansterpartiet.se/2025/04/25/har-kan-du-fira-1-maj-i-lanet/",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Norrköping",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:45",
+    "startPoint": "Skvallertorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1062750922551615/",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Nyköping",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:00",
+    "startPoint": "Teaterparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Orsa",
+    "region": "Dalarnas län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "14:00",
+    "startPoint": "Moraeusparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1868355540585494/",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Oxelösund",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Järntorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/2219672738489063/",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Pajala",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Malmen",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 67.183333,
+    "lon": 23.366667
+  },
+  {
+    "location": "Piteå",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:00",
+    "startPoint": "Stadsberget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Sala",
+    "region": "Västmanlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "15:00",
+    "startPoint": "Paviljongen, Stadsparken",
+    "address": "Paviljongen, Stadsparken",
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Simrishamn",
+    "region": "Skåne län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Hamnplan",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://skane.vansterpartiet.se/event/1-maj-runt-i-skane",
+    "lat": 55.558333,
+    "lon": 14.358333
+  },
+  {
+    "location": "Sjöbo",
+    "region": "Skåne län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:30",
+    "startPoint": "Nya torg",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://skane.vansterpartiet.se/event/1-maj-runt-i-skane",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Skellefteå",
+    "region": "Västerbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:30",
+    "startPoint": "Nordanå",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Skurup",
+    "region": "Skåne län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Torget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://skane.vansterpartiet.se/event/1-maj-runt-i-skane",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Skövde",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "14:00",
+    "startPoint": "Helenaskolan",
+    "address": null,
+    "details": null,
+    "speakers":null,
+    "link": "https://fb.me/e/2ptkWvi1o",
+    "lat": 58.383333,
+    "lon": 13.85
+  },
+  {
+    "location": "Smedjebacken",
+    "region": "Dalarnas län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:30",
+    "startPoint": "Torget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Stockholm",
+    "region": "Stockholms län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Medborgarplatsen",
+    "address": "Kungsträdgården",
+    "details": "14:00 Kungsträdgården",
+    "speakers": null,
+    "link": "https://www.facebook.com/events/685051597427148",
+    "lat": 59.333333,
+    "lon": 18.066667
+  },
+  {
+    "location": "Storuman",
+    "region": "Västerbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Akkan",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://vasterbotten.vansterpartiet.se/2025/04/25/har-kan-du-fira-1-maj-i-lanet/",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Sundbyberg",
+    "region": "Stockholms län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:00",
+    "startPoint": "Partilokalen, Bergdalen 4",
+    "address": "Bergdalen 4",
+    "details": "Ansluter Stockholm",
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Sundsvall",
+    "region": "Västernorrlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:20",
+    "startPoint": "Vängåvan",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1496326895106094",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Surahammar",
+    "region": "Västmanlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:00",
+    "startPoint": "Hembygdsgården",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1859412538193137/",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Svalöv",
+    "region": "Skåne län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "14:00",
+    "startPoint": "Björkgatan 5, Röstånga",
+    "address": "Björkgatan 5, Röstånga",
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/2395385674187474",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Säffle",
+    "region": "Värmlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "15:00",
+    "startPoint": "Kanalparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1355755055695114",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Södertälje",
+    "region": "Stockholms län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "09:30",
+    "startPoint": "Lekplatsen Stadsparken",
+    "address": "Stora torget",
+    "details": "10:00 Stora torget",
+    "speakers": null,
+    "link": "https://facebook.com/events/s/1-maj-med-vansterpartiet-soder/2077406136088162/",
+    "lat": 59.195833,
+    "lon": 17.628056
+  },
+  {
+    "location": "Tranås",
+    "region": "Jönköpings län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "14:00",
+    "startPoint": "Lilla Sveagatan",
+    "address": "Lilla Sveagatan 1 B",
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Trelleborg",
+    "region": "Skåne län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "09:30",
+    "startPoint": "Rådhustorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://skane.vansterpartiet.se/event/1-maj-runt-i-skane",
+    "lat": 55.37677,
+    "lon": 13.149261
+  },
+  {
+    "location": "Uddevalla",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Margeretegärdesparken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 58.351307,
+    "lon": 11.885834
+  },
+  {
+    "location": "Umeå",
+    "region": "Västerbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:30",
+    "startPoint": "Döbelns park",
+    "address": null,
+    "details": null,
+    "speakers": [
+      "Mats Jonsson"
+    ],
+    "link": "https://www.facebook.com/events/4091685527826050/",
+    "lat": 63.824,
+    "lon": 20.268
+  },
+  {
+    "location": "Uppsala",
+    "region": "Uppsala län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:30",
+    "startPoint": "Vaksala torg",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 59.858889,
+    "lon": 17.638889
+  },
+  {
+    "location": "Vadstena",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "15:00",
+    "startPoint": "Folkets park",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Vilhelmina",
+    "region": "Västerbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:30",
+    "startPoint": "Folkets hus",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://vasterbotten.vansterpartiet.se/2025/04/25/har-kan-du-fira-1-maj-i-lanet/",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Visby",
+    "region": "Gotlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:00",
+    "startPoint": "Murgrönan",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/648135521420314",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Vännäs",
+    "region": "Västerbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Torget",
+    "address": null,
+    "details": null,
+    "speakers": [
+      "Hanna Lindberg"
+    ],
+    "link": "https://vasterbotten.vansterpartiet.se/2025/04/25/har-kan-du-fira-1-maj-i-lanet/",
+    "lat": 63.947423,
+    "lon": 19.714855
+  },
+  {
+    "location": "Västerås",
+    "region": "Västmanlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "14:30",
+    "startPoint": "Fiskartorget",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": 59.611366,
+    "lon": 16.545025
+  },
+  {
+    "location": "Växjö",
+    "region": "Kronobergs län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "13:00",
+    "startPoint": "Speaker's corner",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1480045146713865/",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Älmhult",
+    "region": "Kronobergs län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "10:00",
+    "startPoint": "Älmhult",
+    "address": "Älmhult",
+    "details": null,
+    "speakers": null,
+    "link": "https://kronoberg.vansterpartiet.se/event/1-maj-i-kronoberg",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Ängelholm",
+    "region": "Skåne län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Nya torg",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/1294781598266934",
+    "lat": 56.25,
+    "lon": 12.85
+  },
+  {
+    "location": "Örebro",
+    "region": "Örebro län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Slottsbacken",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/659286173316440/",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Örnsköldsvik",
+    "region": "Västernorrlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "11:30",
+    "startPoint": "Arkentrappan",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": "https://www.facebook.com/events/24297788203143179/",
+    "lat": 63.290833,
+    "lon": 18.715556
+  },
+  {
+    "location": "Östersund",
+    "region": "Jämtlands län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "12:00",
+    "startPoint": "Studentplan, Campus",
+    "address": null,
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "location": "Överkalix",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Vänsterpartiet"
+    ],
+    "time": "14:00",
+    "startPoint": "Träffpunkten, Föreningarnas Hus",
+    "address": "Föreningsgatan 11",
+    "details": null,
+    "speakers": null,
+    "link": null,
+    "lat": null,
+    "lon": null
+  }
+]
