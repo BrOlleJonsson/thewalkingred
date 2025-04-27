@@ -11,40 +11,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
+        /* Base styles that don't use @apply */
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f3f4f6; /* Tailwind gray-100 */
         }
         textarea { resize: vertical; }
-        /* Input field styling */
-        .form-input { @apply w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 sm:text-sm disabled:bg-gray-100 disabled:cursor-not-allowed; }
-        .form-label { @apply block text-sm font-medium text-gray-700 mb-1; }
-        /* Button styling */
-        .btn { @apply inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white transition duration-150 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed; }
-        .btn-primary { @apply bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500; }
-        .btn-secondary { @apply bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500; }
-        .btn-danger { @apply bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-600; }
-        .btn-success { @apply bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500; }
-        /* Icon button styling (for delete) */
-        .btn-icon { @apply p-1 rounded-full text-gray-400 hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 disabled:text-gray-300 disabled:hover:bg-transparent; }
-        /* Card styling */
-        .card { @apply bg-white rounded-lg shadow-lg overflow-hidden; }
-        /* Main editor container styling (now just a card) */
-        .editor-container { @apply card; } /* Use card styling */
-        .editor-header { @apply bg-gray-800 text-white p-4 flex justify-between items-center; }
-        /* Editor body layout */
-        .editor-body { @apply p-6 grid grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-4; } /* Adjusted gap */
-        .editor-form-col { @apply lg:col-span-2 space-y-5; } /* Increased spacing between field groups */
-        .editor-map-col { @apply lg:col-span-1 space-y-4; }
-        /* Navigation card styling */
-        .nav-card { @apply card p-4 flex justify-between items-center; } /* Use card styling */
         /* Map container */
-        #editor-map-container { height: 250px; border-radius: 0.375rem; border: 1px solid #d1d5db; z-index: 0; } /* Added z-index */
+        #editor-map-container { height: 250px; border-radius: 0.375rem; border: 1px solid #d1d5db; z-index: 0; }
         .leaflet-marker-draggable { cursor: move !important; }
         .hidden { display: none !important; }
-        /* Field group styling */
-        .field-group { @apply border border-gray-200 rounded-md p-4; }
-        .field-group legend { @apply text-sm font-semibold text-gray-600 px-1; } /* Optional legend styling */
+        /* Styling for legend to overlap border - kept as standard CSS */
+        .field-group legend {
+             font-size: 0.875rem; /* text-sm */
+             font-weight: 600; /* font-semibold */
+             color: #4b5563; /* text-gray-600 */
+             padding-left: 0.25rem; /* px-1 */
+             padding-right: 0.25rem; /* px-1 */
+             margin-top: -1.5rem; /* -mt-6 (approx, adjust as needed) */
+             margin-bottom: 0.5rem; /* mb-2 */
+             background-color: white;
+             display: inline-block;
+        }
     </style>
 </head>
 <body>
@@ -54,9 +42,9 @@
             <p class="text-gray-600">Ladda upp, redigera ett arrangemang i taget och ladda ner `rallies.json`.</p>
         </header>
 
-        <section class="card p-4 flex flex-col sm:flex-row gap-4 items-center justify-between">
+        <section class="bg-white rounded-lg shadow-lg overflow-hidden p-4 flex flex-col sm:flex-row gap-4 items-center justify-between">
             <div class="flex-shrink-0 w-full sm:w-auto">
-                <label for="import-json" class="btn btn-secondary cursor-pointer w-full">
+                <label for="import-json" class="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white transition duration-150 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 cursor-pointer w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" /></svg>
                     Importera
                 </label>
@@ -64,114 +52,106 @@
                 <p id="import-status" class="text-xs text-gray-500 mt-1"></p>
             </div>
             <div class="flex-shrink-0 w-full sm:w-auto">
-                <button id="export-json" class="btn btn-primary w-full">
+                <button id="export-json" class="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white transition duration-150 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
                     Exportera
                 </button>
             </div>
             <div class="flex-shrink-0 w-full sm:w-auto">
-                <button id="add-rally" class="btn btn-success w-full">
+                <button id="add-rally" class="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white transition duration-150 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 w-full">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" /></svg>
                     Lägg till Nytt
                 </button>
             </div>
         </section>
 
-        <section id="nav-card-section" class="nav-card hidden">
-             <button id="prev-rally-btn" class="btn btn-secondary">
+        <section id="nav-card-section" class="bg-white rounded-lg shadow-lg overflow-hidden p-4 flex justify-between items-center hidden">
+             <button id="prev-rally-btn" class="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white transition duration-150 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /></svg>
                 Föregående
             </button>
             <span id="item-counter" class="text-sm text-gray-600 font-medium"></span>
-            <button id="next-rally-btn" class="btn btn-secondary">
+            <button id="next-rally-btn" class="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white transition duration-150 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
                 Nästa
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
             </button>
         </section>
 
-        <section id="editor-section" class="editor-container hidden">
-            <div class="editor-header">
+        <section id="editor-section" class="bg-white rounded-lg shadow-lg overflow-hidden hidden">
+            <div class="bg-gray-800 text-white p-4 flex justify-between items-center">
                 <h2 id="editor-title" class="text-xl font-semibold truncate">Redigera Arrangemang</h2>
-                <button id="delete-rally-btn" class="btn-icon text-red-300 hover:text-red-100" title="Ta bort detta arrangemang">
+                <button id="delete-rally-btn" class="p-1 rounded-full text-gray-400 hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 disabled:text-gray-300 disabled:hover:bg-transparent" title="Ta bort detta arrangemang">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>
                 </button>
             </div>
 
-            <div class="editor-body">
-                <div class="editor-form-col">
-                    <fieldset class="field-group space-y-4">
-                        <legend>Plats</legend>
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="p-6 grid grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-4">
+                <div class="lg:col-span-2 space-y-5">
+                    <fieldset class="field-group pt-6 space-y-4 relative"> <legend class="absolute -top-3 left-2">Plats</legend> <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div>
-                                <label for="location" class="form-label">Ort</label>
-                                <input type="text" id="location" class="form-input rally-input" data-field="location">
+                                <label for="location" class="block text-sm font-medium text-gray-700 mb-1">Ort</label>
+                                <input type="text" id="location" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 sm:text-sm disabled:bg-gray-100 disabled:cursor-not-allowed rally-input" data-field="location">
                             </div>
                             <div>
-                                <label for="region" class="form-label">Region</label>
-                                <input type="text" id="region" class="form-input rally-input" data-field="region">
+                                <label for="region" class="block text-sm font-medium text-gray-700 mb-1">Region</label>
+                                <input type="text" id="region" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 sm:text-sm disabled:bg-gray-100 disabled:cursor-not-allowed rally-input" data-field="region">
                             </div>
                         </div>
                         <div>
-                            <label for="startPoint" class="form-label">Samlingsplats</label>
-                            <input type="text" id="startPoint" class="form-input rally-input" data-field="startPoint">
+                            <label for="startPoint" class="block text-sm font-medium text-gray-700 mb-1">Samlingsplats</label>
+                            <input type="text" id="startPoint" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 sm:text-sm disabled:bg-gray-100 disabled:cursor-not-allowed rally-input" data-field="startPoint">
                         </div>
                          <div>
-                            <label for="address" class="form-label">Adress (för samlingsplats)</label>
-                            <input type="text" id="address" class="form-input rally-input" data-field="address">
+                            <label for="address" class="block text-sm font-medium text-gray-700 mb-1">Adress (för samlingsplats)</label>
+                            <input type="text" id="address" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 sm:text-sm disabled:bg-gray-100 disabled:cursor-not-allowed rally-input" data-field="address">
                         </div>
                     </fieldset>
 
-                    <fieldset class="field-group space-y-4">
-                        <legend>Tid & Arrangörer</legend>
-                        <div>
-                            <label for="time" class="form-label">Tid (HH:MM)</label>
-                            <input type="text" id="time" class="form-input rally-input w-full sm:w-1/2" data-field="time" placeholder="ex: 13:00">
+                    <fieldset class="field-group pt-6 space-y-4 relative"> <legend class="absolute -top-3 left-2">Tid & Arrangörer</legend> <div>
+                            <label for="time" class="block text-sm font-medium text-gray-700 mb-1">Tid (HH:MM)</label>
+                            <input type="text" id="time" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 sm:text-sm disabled:bg-gray-100 disabled:cursor-not-allowed rally-input sm:w-1/2" data-field="time" placeholder="ex: 13:00">
                         </div>
                         <div>
-                            <label for="organizers" class="form-label">Arrangör(er)</label>
-                            <input type="text" id="organizers" class="form-input rally-input rally-array-input" data-field="organizer" placeholder="Separera med komma">
+                            <label for="organizers" class="block text-sm font-medium text-gray-700 mb-1">Arrangör(er)</label>
+                            <input type="text" id="organizers" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 sm:text-sm disabled:bg-gray-100 disabled:cursor-not-allowed rally-input rally-array-input" data-field="organizer" placeholder="Separera med komma">
                         </div>
                         <div>
-                            <label for="speakers" class="form-label">Talare</label>
-                            <input type="text" id="speakers" class="form-input rally-input rally-array-input" data-field="speakers" placeholder="Separera med komma">
+                            <label for="speakers" class="block text-sm font-medium text-gray-700 mb-1">Talare</label>
+                            <input type="text" id="speakers" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 sm:text-sm disabled:bg-gray-100 disabled:cursor-not-allowed rally-input rally-array-input" data-field="speakers" placeholder="Separera med komma">
                         </div>
                     </fieldset>
 
-                    <fieldset class="field-group space-y-4">
-                        <legend>Information</legend>
-                        <div>
-                            <label for="details" class="form-label">Detaljer/Övrigt</label>
-                            <textarea id="details" rows="3" class="form-input rally-input" data-field="details"></textarea>
+                    <fieldset class="field-group pt-6 space-y-4 relative"> <legend class="absolute -top-3 left-2">Information</legend> <div>
+                            <label for="details" class="block text-sm font-medium text-gray-700 mb-1">Detaljer/Övrigt</label>
+                            <textarea id="details" rows="3" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 sm:text-sm disabled:bg-gray-100 disabled:cursor-not-allowed rally-input" data-field="details"></textarea>
                         </div>
                         <div>
-                            <label for="link" class="form-label">Länk (URL)</label>
-                            <input type="url" id="link" class="form-input rally-input" data-field="link" placeholder="https://...">
+                            <label for="link" class="block text-sm font-medium text-gray-700 mb-1">Länk (URL)</label>
+                            <input type="url" id="link" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 sm:text-sm disabled:bg-gray-100 disabled:cursor-not-allowed rally-input" data-field="link" placeholder="https://...">
                         </div>
                     </fieldset>
                 </div>
 
-                <div class="editor-map-col">
-                     <fieldset class="field-group space-y-4">
-                        <legend>Position</legend>
-                        <div>
-                            <label class="form-label">Position på kartan</label>
+                <div class="lg:col-span-1 space-y-4">
+                     <fieldset class="field-group pt-6 space-y-4 relative"> <legend class="absolute -top-3 left-2">Position</legend> <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Position på kartan</label>
                             <div id="editor-map-container"></div>
                             <p class="text-xs text-gray-500 mt-1">Klicka på kartan eller dra markören för att sätta position.</p>
                         </div>
                         <div class="grid grid-cols-2 gap-4">
                             <div>
-                                <label for="lat" class="form-label">Latitude</label>
-                                <input type="number" step="any" id="lat" class="form-input rally-input" data-field="lat" placeholder="ex: 59.3293">
+                                <label for="lat" class="block text-sm font-medium text-gray-700 mb-1">Latitude</label>
+                                <input type="number" step="any" id="lat" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 sm:text-sm disabled:bg-gray-100 disabled:cursor-not-allowed rally-input" data-field="lat" placeholder="ex: 59.3293">
                             </div>
                             <div>
-                                <label for="lon" class="form-label">Longitude</label>
-                                <input type="number" step="any" id="lon" class="form-input rally-input" data-field="lon" placeholder="ex: 18.0686">
+                                <label for="lon" class="block text-sm font-medium text-gray-700 mb-1">Longitude</label>
+                                <input type="number" step="any" id="lon" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-red-500 focus:border-red-500 sm:text-sm disabled:bg-gray-100 disabled:cursor-not-allowed rally-input" data-field="lon" placeholder="ex: 18.0686">
                             </div>
                         </div>
                     </fieldset>
                 </div>
             </div>
-             </section>
+        </section>
 
         <section id="no-data-section" class="text-center py-12">
              <p class="text-gray-500">Ingen data laddad. Importera en `rallies.json`-fil för att börja.</p>
@@ -388,15 +368,18 @@
         function addEditorInputListeners() {
             const editorBody = editorSection.querySelector('.editor-body');
             // Check if listener already exists to prevent duplicates
-            if (!editorBody.dataset.listenerAttached) {
-                 editorBody.addEventListener('change', (event) => {
-                     if (event.target.classList.contains('rally-input')) {
-                         handleInputChange(event);
-                     }
-                 });
+            if (editorBody && !editorBody.dataset.listenerAttached) { // Check if editorBody exists
+                 editorBody.addEventListener('change', handleInputChangeDelegated); // Use named function
                  editorBody.dataset.listenerAttached = 'true'; // Mark as attached
             }
         }
+        // Named function for the event listener callback
+        function handleInputChangeDelegated(event) {
+             if (event.target.classList.contains('rally-input')) {
+                 handleInputChange(event);
+             }
+        }
+
 
         /** Handles changes in form input fields */
         function handleInputChange(event) {
@@ -498,7 +481,12 @@
                     console.log("Data imported.");
                     isDataDirty = false; // Reset dirty flag after import
                     currentItemIndex = allRalliesData.length > 0 ? 0 : -1; // Set index to first item or -1 if empty
-                    renderEditor(); // Render the editor with the new data
+
+                    // Delay rendering slightly to ensure DOM is stable after import
+                    setTimeout(() => {
+                        renderEditor(); // Render the editor with the new data
+                    }, 0);
+
                 } catch (error) {
                     console.error("Error parsing JSON:", error);
                     importStatus.textContent = `Importfel: ${error.message}`;
