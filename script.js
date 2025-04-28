@@ -382,7 +382,8 @@ function initializeMap() {
         L.tileLayer(TILE_URL, { attribution: ATTRIBUTION, maxZoom: 18 }).addTo(map);
 
         // Initialize the marker cluster group
-        markerClusterGroup = L.markerClusterGroup();
+        // Initialize the marker cluster group with a much larger radius for fewer, bigger clusters
+        markerClusterGroup = L.markerClusterGroup({ maxClusterRadius: 25 });
         map.addLayer(markerClusterGroup); // Add the cluster group to the map
 
         // Add listener to handle clicks on "Visa detaljer" links within map popups
