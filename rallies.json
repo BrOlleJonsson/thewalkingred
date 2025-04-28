@@ -1369,5 +1369,1421 @@
     "link": null,
     "lat": null,
     "lon": null
+  },
+  {
+    "location": "Ale",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:45",
+    "startPoint": "Folkets hus Älvängen",
+    "address": "Gamla Ica Älvängen",
+    "details": "Kl 11 Programstart Gamla Ica Älvängen",
+    "speakers": [
+      "Christine Martila",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.925,
+    "lon": 12.086944
+  },
+  {
+    "location": "Alingsås",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "12:45",
+    "startPoint": "Folkets hus",
+    "address": "Lilla Torget",
+    "details": "Kl 13 Programstart Lilla Torget",
+    "speakers": [
+      "Kenneth G Forslund",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.93,
+    "lon": 12.533056
+  },
+  {
+    "location": "Alvesta",
+    "region": "Kronobergs län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Hagaparken",
+    "address": "Scenen i Hagaparken",
+    "details": "Kl 11.45 Programstart Scenen i Hagaparken",
+    "speakers": [
+      "Thage G Peterson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 56.9,
+    "lon": 14.55
+  },
+  {
+    "location": "Arboga",
+    "region": "Västmanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:00",
+    "startPoint": "Alövsparken",
+    "address": "Alövsparken",
+    "details": "10.00 programstart Alövsparken",
+    "speakers": [
+      "Yusuf Abdow",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.393889,
+    "lon": 15.838611
+  },
+  {
+    "location": "Arjeplog",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:30",
+    "startPoint": "Kyrkströmsgården",
+    "address": "Kyrkströmsgården",
+    "details": "13.30 Programstart Kyrkströmsgården",
+    "speakers": [
+      "Anna Lundberg",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 66.05,
+    "lon": 17.883333
+  },
+  {
+    "location": "Arvidsjaur",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "12:00",
+    "startPoint": "Rotrundan, Medan",
+    "address": "Rotrundan, Medan",
+    "details": null,
+    "speakers": [
+      "Anna Lundberg",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 65.583333,
+    "lon": 19.166667
+  },
+  {
+    "location": "Askersund",
+    "region": "Örebro län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": null,
+    "startPoint": null,
+    "address": null,
+    "details": "Tid och plats har vi ej uppgift om.",
+    "speakers": [
+      "Theres Andersson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.879722,
+    "lon": 14.902778
+  },
+  {
+    "location": "Boden",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:00",
+    "startPoint": "Centrumtorget",
+    "address": "Folkets hus",
+    "details": "14.00 Programstart Folkets hus",
+    "speakers": [
+      "Matilda Ernkrans",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 65.825556,
+    "lon": 21.690556
+  },
+  {
+    "location": "Bollebygd",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Biblioteksparken",
+    "address": "Biblioteksparken",
+    "details": "KL 11 Programstart Biblioteksparken",
+    "speakers": [
+      "Petter Löberg",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.666667,
+    "lon": 12.566667
+  },
+  {
+    "location": "Borås",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "14:30",
+    "startPoint": "Posttorget",
+    "address": "Stadsparken",
+    "details": "Kl 13 Programstart Stadsparken",
+    "speakers": [
+      "Elfva Barrio",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.721111,
+    "lon": 12.940278
+  },
+  {
+    "location": "Boxholm",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:30",
+    "startPoint": "Stenbocksskolan",
+    "address": "Stora torget",
+    "details": "11.00 Programstart Stora torget",
+    "speakers": [
+      "Kaisa Karro",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.2,
+    "lon": 15.05
+  },
+  {
+    "location": "Degerfors",
+    "region": "Örebro län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:00",
+    "startPoint": "Folkets park",
+    "address": "Folkets park",
+    "details": "Kl 10.30 Programstart Folkets park",
+    "speakers": [
+      "Elsa Alm",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.236111,
+    "lon": 14.429722
+  },
+  {
+    "location": "Enköping",
+    "region": "Uppsala län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Stora torget",
+    "address": "Skolparken",
+    "details": "11.30 Programstart Skolparken.",
+    "speakers": [
+      "Stefan Löfven",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.635556,
+    "lon": 17.076389
+  },
+  {
+    "location": "Eskilstuna",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "14:00",
+    "startPoint": "Fristadstorget",
+    "address": "Fristadstorget",
+    "details": "14.30 Programstart Fristadstorget",
+    "speakers": [
+      "Linda Palmetzhofer",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.370833,
+    "lon": 16.509722
+  },
+  {
+    "location": "Fagersta",
+    "region": "Västmanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:00",
+    "startPoint": "Folkets hus",
+    "address": "Folkets hus",
+    "details": "13.00 Programstart Folkets hus",
+    "speakers": [
+      "Åsa-Märta Sjöström",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 60.004167,
+    "lon": 15.793333
+  },
+  {
+    "location": "Finspång",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:00",
+    "startPoint": "Bruksparken",
+    "address": "Bruksparken",
+    "details": "10.00 Programstart Bruksparken",
+    "speakers": [
+      "Per-Olof Sjö",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.7,
+    "lon": 15.8
+  },
+  {
+    "location": "Flen",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "12:00",
+    "startPoint": "Sveaparken",
+    "address": "Sveaparken",
+    "details": "12.00 Programstart Sveaparken, Familjefest",
+    "speakers": [
+      "Sofia Amloh",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.05,
+    "lon": 16.583333
+  },
+  {
+    "location": "Gnesta",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:00",
+    "startPoint": "Strömmentorget",
+    "address": "Strömmentorget",
+    "details": "10.00 Programstart Strömmentorget",
+    "speakers": [
+      "Sofia Amloh",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.05,
+    "lon": 17.3
+  },
+  {
+    "location": "Gällivare",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:00",
+    "startPoint": "Folkets hus",
+    "address": "Folkets hus",
+    "details": "Kl 14 Programstart Folkets hus",
+    "speakers": [
+      "Camilla Friberg",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 67.13,
+    "lon": 20.66
+  },
+  {
+    "location": "Hallsberg",
+    "region": "Örebro län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:00",
+    "startPoint": "Kommunhuset",
+    "address": "Kuben, Södra Allégatan 26",
+    "details": "Programstart sker sedan på Kuben, Södra Allégatan 26",
+    "speakers": [
+      "Karin Sundin",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.066667,
+    "lon": 15.116667
+  },
+  {
+    "location": "Hallstahammar",
+    "region": "Västmanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "14:00",
+    "startPoint": "Torget",
+    "address": "Torget",
+    "details": "Kl 14 Programstart Torget",
+    "speakers": [
+      "Magnus Johansson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.616667,
+    "lon": 16.25
+  },
+  {
+    "location": "Haparanda",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Partiexp, Storgatan 80",
+    "address": "Viktoriatorget",
+    "details": "Kl 12 Programstart Viktoriatorget, Firar tillsammans med Finland",
+    "speakers": [
+      "Johannes Sundelin",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 65.833333,
+    "lon": 24.133333
+  },
+  {
+    "location": "Heby",
+    "region": "Uppsala län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:30",
+    "startPoint": "Folkets hus",
+    "address": "Folkets hus",
+    "details": "13.30 Programstart Folkets hus",
+    "speakers": [
+      "Vivianne Macdisi",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.933333,
+    "lon": 16.883333
+  },
+  {
+    "location": "Herrljunga",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "framför kommunhuset",
+    "address": "framför kommunhuset",
+    "details": "Kl 11 Programstart framför kommunhuset",
+    "speakers": [
+      "Helen Eliasson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.083333,
+    "lon": 13.033333
+  },
+  {
+    "location": "Håbo",
+    "region": "Uppsala län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "9:45",
+    "startPoint": "Kommunhuset i Bålsta",
+    "address": "Kommunhuset i Bålsta",
+    "details": "9.45 Programstart Kommunhuset i Bålsta",
+    "speakers": [
+      "Helena Proos",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.583333,
+    "lon": 17.5
+  },
+  {
+    "location": "Hällefors",
+    "region": "Örebro län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:00",
+    "startPoint": "Folkets hus",
+    "address": "Folkets hus",
+    "details": "Kl 13 Programstart Folkets hus",
+    "speakers": [
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.766667,
+    "lon": 14.516667
+  },
+  {
+    "location": "Jokkmokk",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Folkets hus",
+    "address": "Folkets hus",
+    "details": "Kl 11.30 Folkets hus",
+    "speakers": [
+      "Linus Sköld",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 66.616667,
+    "lon": 19.833333
+  },
+  {
+    "location": "Kalix",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Folkets hus",
+    "address": "Folkets hus",
+    "details": "Kl 13 Programstart Folkets hus",
+    "speakers": [
+      "Samuel Pettersson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 65.85,
+    "lon": 23.166667
+  },
+  {
+    "location": "Karlskoga",
+    "region": "Örebro län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Torget",
+    "address": "Torget",
+    "details": "Kl 11.50 Programstart Torget",
+    "speakers": [
+      "Jenny Steen",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.333333,
+    "lon": 14.516667
+  },
+  {
+    "location": "Katrineholm",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "14:00",
+    "startPoint": "Stortorget",
+    "address": "Stadsparken",
+    "details": "Kl 14.30 Programstart Stadsparken",
+    "speakers": [
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.0,
+    "lon": 16.2
+  },
+  {
+    "location": "Kinda",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:00",
+    "startPoint": "Kuben Värgårdsskolan",
+    "address": "Kuben Värgårdsskolan",
+    "details": "Kl 10 Programstart Kuben Värgårdsskolan",
+    "speakers": [
+      "Mattias Ottosson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.983333,
+    "lon": 15.616667
+  },
+  {
+    "location": "Kiruna",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "12:00",
+    "startPoint": "Stadshuset",
+    "address": "Stadshuset",
+    "details": "Kl 12 Programstart Stadshuset",
+    "speakers": [
+      "Claes Danell",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 67.85,
+    "lon": 20.216667
+  },
+  {
+    "location": "Kumla",
+    "region": "Örebro län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "12:39",
+    "startPoint": "Scenen vid Kumlasjön",
+    "address": "Scenen vid Kumlasjön",
+    "details": "Kl 13 Scenen vid Kumlasjön",
+    "speakers": [
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.116667,
+    "lon": 15.133333
+  },
+  {
+    "location": "Kungsör",
+    "region": "Västmanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:00",
+    "startPoint": "Pinnparken",
+    "address": "Pinnparken",
+    "details": "13.00 Programstart Pinnparken",
+    "speakers": [
+      "Kenneth Österberg",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.423611,
+    "lon": 16.095833
+  },
+  {
+    "location": "Kungälv",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:15",
+    "startPoint": "Kastalakyrkan",
+    "address": "Nytorget",
+    "details": "KL 11.15 Programstart Nytorget",
+    "speakers": [
+      "Emelie Stark",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.866667,
+    "lon": 11.966667
+  },
+  {
+    "location": "Laxå",
+    "region": "Örebro län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "14:00",
+    "startPoint": "centrumtorget i Laxå",
+    "address": "centrumtorget i Laxå",
+    "details": "kl 14 Programstart centrumtorget i Laxå",
+    "speakers": [
+      "Nina Höijer",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.983333,
+    "lon": 14.616667
+  },
+  {
+    "location": "Lekeberg",
+    "region": "Örebro län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:00",
+    "startPoint": "Torget",
+    "address": "Torget",
+    "details": "Kl 13 Programstart Torget",
+    "speakers": [
+      "Joakim Carlsson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.166667,
+    "lon": 14.866667
+  },
+  {
+    "location": "Lessebo",
+    "region": "Kronobergs län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:45",
+    "startPoint": "Folkets hus Hovmantorp",
+    "address": "Folkets hus",
+    "details": "Kl 11 Programstart Folkets hus",
+    "speakers": [
+      "Malin Lauber",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 56.75,
+    "lon": 15.266667
+  },
+  {
+    "location": "Lindesberg",
+    "region": "Örebro län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "12:00",
+    "startPoint": "Norrtullstorget",
+    "address": "Norrtullstorget",
+    "details": "Kl 12.15 Programstart Norrtullstorget",
+    "speakers": [
+      "Denis Begic",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.583333,
+    "lon": 15.25
+  },
+  {
+    "location": "Linköping",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:30",
+    "startPoint": "Borggården",
+    "address": "Farbror Melins torg",
+    "details": "15.00 Programstart Farbror Melins torg",
+    "speakers": [
+      "Malin Ragnegård",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.415833,
+    "lon": 15.625278
+  },
+  {
+    "location": "Ljungby",
+    "region": "Kronobergs län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "14:00",
+    "startPoint": "Betlehem",
+    "address": "Godsmagasinet",
+    "details": "Kl 14.30 Godsmagasinet",
+    "speakers": [
+      "Monica Haider",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 56.833333,
+    "lon": 13.933333
+  },
+  {
+    "location": "Ljusnarsberg",
+    "region": "Örebro län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:00",
+    "startPoint": "Malmtorget Kopparberg",
+    "address": "Malmtorget Kopparberg",
+    "details": "Kl 13 Programstart Malmtorget Kopparberg",
+    "speakers": [
+      "Denis Begic",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.866667,
+    "lon": 14.983333
+  },
+  {
+    "location": "Luleå",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Språklådan, Lärkan",
+    "address": "Stadsparken",
+    "details": "Kl 12.15 Stadsparken",
+    "speakers": [
+      "Matilda Ernkrans",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 65.584444,
+    "lon": 22.153889
+  },
+  {
+    "location": "Mark",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "9:30",
+    "startPoint": "Skene torg",
+    "address": "Skene torg",
+    "details": "9.30 Start firande Skene torg",
+    "speakers": [
+      "Jesper Eneroth",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.516667,
+    "lon": 12.683333
+  },
+  {
+    "location": "Markaryd",
+    "region": "Kronobergs län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "12:00",
+    "startPoint": "Folkets Hus, Strömsnäsbruk",
+    "address": "Folkets hus",
+    "details": "Kl 12.30 Programstart Folkets hus",
+    "speakers": [
+      "Robrt Olesen",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 56.45,
+    "lon": 13.583333
+  },
+  {
+    "location": "Mjölby",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Gästisparken",
+    "address": "Gästisparken",
+    "details": "Kl 11.45 programstart Gästisparken",
+    "speakers": [
+      "Lars Stjernkvist",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.333333,
+    "lon": 15.116667
+  },
+  {
+    "location": "Motala",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:30",
+    "startPoint": "Stora torget",
+    "address": "Folkets hus",
+    "details": "Kl 11 programstart Folkets hus",
+    "speakers": [
+      "Lisa Nåbo",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.533333,
+    "lon": 15.033333
+  },
+  {
+    "location": "Mölndal",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:15",
+    "startPoint": "Folkets hus \"Möllan\"",
+    "address": "Alberts torg",
+    "details": "Kl 11.30 Programstart Alberts torg",
+    "speakers": [
+      "Eva Ramberg",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.7,
+    "lon": 11.966667
+  },
+  {
+    "location": "Nacka",
+    "region": "Stockholms län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": null,
+    "startPoint": null,
+    "address": null,
+    "details": "Firar med stockholms city - välkommen!",
+    "speakers": [
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.316667,
+    "lon": 18.166667
+  },
+  {
+    "location": "Nora",
+    "region": "Örebro län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:00",
+    "startPoint": "Svartälvsgatan 19",
+    "address": "Svartälvsgatan 19",
+    "details": "Kl 10 Programstart Svartälvsgatan 19",
+    "speakers": [
+      "Theres Andersson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.516667,
+    "lon": 15.033333
+  },
+  {
+    "location": "Norberg",
+    "region": "Västmanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "14:00",
+    "startPoint": "Folkets park",
+    "address": "Folkets park",
+    "details": "14.00 Programstart Folkets park, Arbetarrörelens dag med seminarier och filmvisning",
+    "speakers": [
+      "mfl"
+    ],
+    "link": null,
+    "lat": 60.083333,
+    "lon": 15.95
+  },
+  {
+    "location": "Norrköping",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:45",
+    "startPoint": "Platinum Cars Arena",
+    "address": "Holmentorget",
+    "details": "12.30 Programstart Holmentorget",
+    "speakers": [
+      "Malin Ragnegård",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.6,
+    "lon": 16.2
+  },
+  {
+    "location": "Nyköping",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:30",
+    "startPoint": "Stora torget",
+    "address": "Träffen, Olof Palmes väg 1",
+    "details": "14.00 Programstart Träffen, Olof Palmes väg 1",
+    "speakers": [
+      "Carolin Helmersson Olsson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.753056,
+    "lon": 17.008611
+  },
+  {
+    "location": "Oxelösund",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:45",
+    "startPoint": "D-skolan, Skeppargatan",
+    "address": "D-skolan",
+    "details": "11.30 Programstart D-skolan",
+    "speakers": [
+      "Caroline Helmersson Olsson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.666667,
+    "lon": 17.116667
+  },
+  {
+    "location": "Pajala",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Torget",
+    "address": "Folkets hus",
+    "details": "Kl 12 Programstart Folkets hus",
+    "speakers": [
+      "Zara Leghissa",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 67.183333,
+    "lon": 23.366667
+  },
+  {
+    "location": "Partille",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:30",
+    "startPoint": "Kyrktorget",
+    "address": "Stadsparken",
+    "details": "KL 11 Programstart Stadsparken",
+    "speakers": [
+      "Kenneth G Forslund",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.730556,
+    "lon": 12.106944
+  },
+  {
+    "location": "Piteå",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:00",
+    "startPoint": "P-däcket",
+    "address": "Badhusparken",
+    "details": "Kl 14 Programstart Badhusparken",
+    "speakers": [
+      "Fredrik Lundh Sammeli",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 65.316667,
+    "lon": 21.483333
+  },
+  {
+    "location": "Sala",
+    "region": "Västmanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "12:00",
+    "startPoint": "Torget",
+    "address": "Torget",
+    "details": "12.00 Programstart Torget, Familjedag,",
+    "speakers": [
+      "Olle Thorell",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.916667,
+    "lon": 16.6
+  },
+  {
+    "location": "Skinnskatteberg",
+    "region": "Västmanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "allaaktivitetshuset Sture",
+    "address": "allaaktivitetshuset Sture",
+    "details": "11.00 Programstart allaaktivitetshuset Sture",
+    "speakers": [
+      "Åsa Eriksson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.833333,
+    "lon": 15.683333
+  },
+  {
+    "location": "Stockholm",
+    "region": "Stockholms län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "12:00",
+    "startPoint": "Humlegården",
+    "address": "Norra bantorget",
+    "details": "Kl 13. Programstart Norra bantorget",
+    "speakers": [
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.329444,
+    "lon": 18.068611
+  },
+  {
+    "location": "Strängnäs",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:00",
+    "startPoint": "Ugglans park",
+    "address": "Ugglans park",
+    "details": "13.30 Programstart Ugglans park, Familjeaktiviteter",
+    "speakers": [
+      "Hans Ekström",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.366667,
+    "lon": 17.033333
+  },
+  {
+    "location": "Surahammar",
+    "region": "Västmanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Torget",
+    "address": "Torget",
+    "details": "11.00 Programstart Torget, Familjedag, underhållning",
+    "speakers": [
+      "Mikael Damberg",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.716667,
+    "lon": 16.216667
+  },
+  {
+    "location": "Svenljunga",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:00",
+    "startPoint": "Svenljunga torg",
+    "address": "Svenljunga torg",
+    "details": "Kl 10 Programstart Svenljunga torg",
+    "speakers": [
+      "Elva Barrio",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.5,
+    "lon": 13.116667
+  },
+  {
+    "location": "Tierp",
+    "region": "Uppsala län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:30",
+    "startPoint": "Stora salutorget (mittemot kommunhuset)",
+    "address": "Stora salutorget (mittemot kommunhuset)",
+    "details": null,
+    "speakers": [
+      "Gustaf Lantz",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 60.333333,
+    "lon": 17.5
+  },
+  {
+    "location": "Tingsryd",
+    "region": "Kronobergs län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Parken, Urshult",
+    "address": "Parken, Urshult",
+    "details": "Kl 11 Programstart Parken, Urshult",
+    "speakers": [
+      "Lena Hallengren",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 56.530556,
+    "lon": 14.976944
+  },
+  {
+    "location": "Tranemo",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:15",
+    "startPoint": "Vallgatan 1",
+    "address": "Folkets hus Limmared",
+    "details": "Kl 12 Programstart Folkets hus Limmared",
+    "speakers": [
+      "Elfva Barrio",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.483333,
+    "lon": 13.35
+  },
+  {
+    "location": "Trosa",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Trosa torg",
+    "address": "Trosa torg",
+    "details": "11.30 Programstart Trosa torg, Familjedag",
+    "speakers": [
+      "Peter Bernhardsson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.9,
+    "lon": 17.55
+  },
+  {
+    "location": "Ulricehamn",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:30",
+    "startPoint": "Järnvägstorget 1",
+    "address": "Järnvägstorget 1",
+    "details": "10.30 Programstart Järnvägstorget 1",
+    "speakers": [
+      "Ylva Lengberg",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.783333,
+    "lon": 13.416667
+  },
+  {
+    "location": "Vadstena",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Övre Hamnparken",
+    "address": "Övre Hamnparken",
+    "details": "11.00 Programstart Övre Hamnparken",
+    "speakers": [
+      "Lena Micko",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.45,
+    "lon": 14.9
+  },
+  {
+    "location": "Valdemarsvik",
+    "region": "Östergötlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": null,
+    "startPoint": null,
+    "address": null,
+    "details": null,
+    "speakers": [
+      "Johan Löfstrand",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.2,
+    "lon": 16.6
+  },
+  {
+    "location": "Vingåker",
+    "region": "Södermanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "9:45",
+    "startPoint": "Apoteksgatan 6",
+    "address": "Tennisparken",
+    "details": "10.00 programstart Tennisparken",
+    "speakers": [
+      "Monica Johansson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.033333,
+    "lon": 15.866667
+  },
+  {
+    "location": "Vårgårda",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Murartorget",
+    "address": "Murartorget",
+    "details": "Kl 11 Programstart Murartorget",
+    "speakers": [
+      "Helen Eliasson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 58.033333,
+    "lon": 12.8
+  },
+  {
+    "location": "Västerås",
+    "region": "Västmanlands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "13:00",
+    "startPoint": "Viktor Larsson plats",
+    "address": "Viktor Larsson plats",
+    "details": "12.00 Viktor Larssons plats Västerås Folkkör, 14.00 programstart Viktor Larsson plats",
+    "speakers": [
+      "Mikael Damberg",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.616111,
+    "lon": 16.552778
+  },
+  {
+    "location": "Växjö",
+    "region": "Kronobergs län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "14:15",
+    "startPoint": "Partiexp. Liedbergsgatan 31",
+    "address": "Linnéparken",
+    "details": "Kl 15 Programstart Linnéparken",
+    "speakers": [
+      "Lena Hallengren",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 56.876944,
+    "lon": 14.809167
+  },
+  {
+    "location": "Älmhult",
+    "region": "Kronobergs län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "10:30",
+    "startPoint": "Gunnar Gröpe",
+    "address": "Torget",
+    "details": "Kl 11 Programstart Torget",
+    "speakers": [
+      "Monica Haider",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 56.55,
+    "lon": 14.133333
+  },
+  {
+    "location": "Öckerö",
+    "region": "Västra Götalands län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Länkarnas sommarhem Hönö",
+    "address": "Länkarnas sommarhem Hönö",
+    "details": "Kl 11 Programstart Länkarnas sommarhem Hönö",
+    "speakers": [
+      "Janette Olsson",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 57.7,
+    "lon": 11.65
+  },
+  {
+    "location": "Örebro",
+    "region": "Örebro län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "14:30",
+    "startPoint": "Slottsparken",
+    "address": "Slottsparken",
+    "details": "Kl 15 Programstart Slottsparken",
+    "speakers": [
+      "Petre Hultqvist",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 59.273889,
+    "lon": 15.2075
+  },
+  {
+    "location": "Överkalix",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "11:00",
+    "startPoint": "Folekts hus",
+    "address": "Folkets hus",
+    "details": "Kl 12 Programstart Folkets hus",
+    "speakers": [
+      "Anders Öberg",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 66.35,
+    "lon": 22.883333
+  },
+  {
+    "location": "Övertorneå",
+    "region": "Norrbottens län",
+    "organizer": [
+      "Socialdemokraterna"
+    ],
+    "time": "15:00",
+    "startPoint": "Folkhögskolans aula",
+    "address": "Folkhögskolans aula",
+    "details": "Kl 15 Programstart Folkhögskolans aula",
+    "speakers": [
+      "Anders Öberg",
+      "mfl"
+    ],
+    "link": null,
+    "lat": 66.388056,
+    "lon": 23.653611
   }
 ]
